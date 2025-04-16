@@ -21,7 +21,6 @@ const Navbar = () => {
 
   const navItems = [
     { name: 'Home', path: '/', icon: <Home className="w-5 h-5" /> },
-    { name: 'About', path: '/about', icon: <Info className="w-5 h-5" /> },
     {
       name: 'Data Structures',
       path: '/data-structures',
@@ -115,6 +114,7 @@ const Navbar = () => {
                               ${isActive(child.path) ? 'bg-blue-600 font-medium' : ''}
                             `}
                             onClick={() => {
+                              scrollTo(0, 0);
                               setDataStructure(child.name);
                               setDsDropdownOpen(false);
                             }}

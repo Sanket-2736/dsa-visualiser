@@ -42,8 +42,50 @@ const DataStructuresSection = () => {
       path: "/hash-map",
       color: "text-emerald-400",
       bg: "bg-emerald-800/20"
+    },
+    // ALGORITHMS SECTION
+    {
+      icon: <ArrowRight className="w-5 h-5" />,
+      title: "Binary Search",
+      description: "Efficiently search for elements in sorted arrays using divide and conquer",
+      difficulty: "Easy",
+      operations: ["Search", "Mid", "Compare"],
+      path: "/binary-search",
+      color: "text-blue-400",
+      bg: "bg-blue-800/20"
+    },
+    {
+      icon: <ArrowRight className="w-5 h-5 rotate-90" />,
+      title: "Bubble Sort",
+      description: "Sort an array by repeatedly swapping adjacent elements",
+      difficulty: "Easy",
+      operations: ["Swap", "Compare", "Sort"],
+      path: "/bubble-sort",
+      color: "text-pink-400",
+      bg: "bg-pink-800/20"
+    },
+    {
+      icon: <ArrowRight className="w-5 h-5 rotate-45" />,
+      title: "N Queens",
+      description: "Place queens on a chessboard such that none can attack another",
+      difficulty: "Hard",
+      operations: ["Place", "Backtrack", "Check Safety"],
+      path: "/n-queens",
+      color: "text-red-400",
+      bg: "bg-red-800/20"
+    },
+    {
+      icon: <ArrowRight className="w-5 h-5 -rotate-45" />,
+      title: "Tower of Hanoi",
+      description: "Move disks between pegs following specific rules using recursion",
+      difficulty: "Medium",
+      operations: ["Move Disk", "Recursion", "Base Case"],
+      path: "/tower-of-hanoi",
+      color: "text-yellow-400",
+      bg: "bg-yellow-800/20"
     }
   ];
+  
 
   return (
     <section className="py-16 px-4 bg-gradient-to-b from-gray-950 to-gray-900">
@@ -107,7 +149,7 @@ const DataStructuresSection = () => {
                   <div className="mt-auto pt-3 border-t border-gray-700">
                     <Link
                       to={structure.path}
-                      className="inline-flex items-center gap-1 text-sm font-medium text-cyan-300 group-hover:text-cyan-200 transition-colors"
+                      className="inline-flex hover:cursor-pointer items-center gap-1 text-sm font-medium text-cyan-300 group-hover:text-cyan-200 transition-colors"
                     >
                       <span>Explore</span>
                       <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />

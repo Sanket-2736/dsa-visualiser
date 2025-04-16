@@ -73,11 +73,6 @@ const About = () => {
             >
               <div className="h-full p-[1px] rounded-xl bg-gradient-to-br from-blue-600/30 to-indigo-600/30 overflow-hidden">
                 <div className="h-full bg-blue-900/20 rounded-xl backdrop-blur-sm p-6 border border-blue-800/20 group-hover:border-blue-700/50 transition-all duration-300">
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-20 h-20 rounded-full object-cover mb-4 border-2 border-blue-700 mx-auto"
-                  />
                   <h4 className="text-xl font-semibold text-white text-center">{member.name}</h4>
                   <p className="text-cyan-300 text-sm text-center mb-2">{member.role}</p>
                   <p className="text-blue-200/80 text-sm text-center">{member.bio}</p>
