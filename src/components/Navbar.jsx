@@ -40,6 +40,8 @@ const Navbar = () => {
         { name: 'Tower of Hanoi', path: '/tower-of-hanoi' },
         { name: 'N-Queens', path: '/n-queens' },
         { name: 'Bubble Sort', path: '/bubble-sort' },
+        { name: 'Insertion Sort', path: '/insertion-sort' },
+        { name: 'Merge Sort', path: '/merge-sort' },
         { name: 'Binary Search', path: '/binary-search' }
       ]
     }

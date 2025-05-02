@@ -14,6 +14,8 @@ import NQueensPage from './pages/NQueensPage'
 import AppContextProvider from './context/AppContext'
 import BubbleSortPage from './pages/BubbleSortPage'
 import BinarySearchPage from './pages/BinarySearchPage'
+import InsertionSortPage from './pages/InsertionSort'
+import MergeSortPage from './pages/MergeSort'
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
         <Route path="/linked-list" element={<LinkedListPage/>}/>
         <Route path="/hashmap" element={<HashMapPage/>}/>
         <Route path="/bubble-sort" element={<BubbleSortPage/>}/>
+        <Route path="/insertion-sort" element={<InsertionSortPage/>}/>
+        <Route path="/merge-sort" element={<MergeSortPage/>}/>
         <Route path="/binary-search" element={<BinarySearchPage/>}/>
         <Route path="/tower-of-hanoi" element={<TowerOfHanoiPage/>}/>
         <Route path="/n-queens" element={<NQueensPage/>}/>

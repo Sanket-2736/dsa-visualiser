@@ -50,7 +50,7 @@ const HeroSection = () => {
             transition={{ delay: 0.2, duration: 0.8 }}
             className="text-4xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-cyan-300 to-blue-300"
           >
-            Code Quest Arena: Java Edition
+            CodeVista: The Ultimate DSA Visualizer
           </motion.h1>
           
           <motion.p
@@ -101,6 +101,24 @@ const HeroSection = () => {
             <div className="text-purple-400">{'}'}</div>
             <div className="mt-4 text-gray-500">// Hover over any structure to see it in action</div>
           </div>
+        </motion.div>
+
+        {/* Credit Section */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1, duration: 0.8 }}
+          className="mt-12 text-center"
+        >
+          <p className="text-lg md:text-2xl font-semibold text-cyan-300">Made with ❤️ by Sanket K. Belekar</p>
+          <a
+            href="https://www.linkedin.com/in/sanket-belekar-79210228a/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 inline-block text-lg md:text-2xl font-bold text-blue-400 hover:underline"
+          >
+            Connect with me on LinkedIn
+          </a>
         </motion.div>
       </div>
     </section>
