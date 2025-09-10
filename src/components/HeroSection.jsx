@@ -110,7 +110,7 @@ const HeroSection = () => {
           transition={{ delay: 1, duration: 0.8 }}
           className="mt-12 text-center"
         >
-          <p className="text-lg md:text-2xl font-semibold text-cyan-300">Made with ❤️ by Sanket K. Belekar</p>
+          <p className="text-lg md:text-2xl font-semibold text-cyan-300">Made with ❤️ by Sanket K. Belekar, Prathamesh A. Ranade, Ayush A. Shirsat, Tanmay Sonar</p>
           <a
             href="https://www.linkedin.com/in/sanket-belekar-79210228a/"
             target="_blank"
