@@ -61,9 +61,9 @@ src/
 │ ├── GraphPage.jsx
 │ ├── BubbleSortPage.jsx
 │ ├── InsertionSortPage.jsx
-│ ├── MergeSortPage.jsx
-│ ├── BinarySearchPage.jsx
-│ ├── TowerOfHanoiPage.jsx
+│ ├── MergeSortPage.jsx\n
+│ ├── BinarySearchPage.jsx\n
+│ ├── TowerOfHanoiPage.jsx\n
 │ ├── NQueensPage.jsx
 │ ├── PrimVisualizerPage.jsx
 │ └── KruskalVisualizerPage.jsx
@@ -82,7 +82,7 @@ src/
 ```bash
 git clone https://github.com/your-username/dsa-visualiser.git
 cd dsa-visualiser
-nap run dev
+npm run dev
 ```
 
 🌐 Routes
