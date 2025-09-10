@@ -48,7 +48,7 @@ This project helps students and developers understand how various **data structu
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/dsa-visualiser.git
+git clone https://github.com/sanket-2736/dsa-visualiser.git
 cd dsa-visualiser
 npm run dev
 ```
