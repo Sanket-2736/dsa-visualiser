@@ -29,7 +29,10 @@ const Navbar = () => {
         { name: 'Queue', path: '/queue' },
         { name: 'Stack', path: '/stack' },
         { name: 'Linked List', path: '/linked-list' },
-        { name: 'Hash Map', path: '/hashmap' }
+        { name: 'Hash Map', path: '/hashmap' },
+        { name: 'Binary Tree', path: '/binary-tree' },
+        { name: 'AVL Tree', path: '/avl-tree' },
+        { name: 'Graph', path: '/graph' },
       ]
     },
     {
@@ -42,6 +45,8 @@ const Navbar = () => {
         { name: 'Bubble Sort', path: '/bubble-sort' },
         { name: 'Insertion Sort', path: '/insertion-sort' },
         { name: 'Merge Sort', path: '/merge-sort' },
+        { name: "Prim's Algorithm", path: '/prims-algo' },
+        { name: "Kruskal's Algorithm", path: '/kruskals-sort' },
         { name: 'Binary Search', path: '/binary-search' }
       ]
     }

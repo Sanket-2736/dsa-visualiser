@@ -16,6 +16,11 @@ import BubbleSortPage from './pages/BubbleSortPage'
 import BinarySearchPage from './pages/BinarySearchPage'
 import InsertionSortPage from './pages/InsertionSort'
 import MergeSortPage from './pages/MergeSort'
+import PrimVisualizerPage from './pages/PrimVisualizerPage'
+import KruskalVisualizerPage from './pages/KruskalVisualizerPage'
+import GraphPage from './pages/GraphPage'
+import AVLTreePage from './pages/AVLTreePage'
+import BinaryTreePage from './pages/BinaryTreePage'
 
 function App() {
   return (
@@ -27,6 +32,9 @@ function App() {
         <Route path="/data-structures" element={<DataStuctDesc/>}/>
         <Route path="/queue" element={<QueuePage/>}/>
         <Route path="/stack" element={<StackPage/>}/>
+        <Route path="/graph" element={<GraphPage/>}/>
+        <Route path="/avl-tree" element={<AVLTreePage/>}/>
+        <Route path="/binary-tree" element={<BinaryTreePage/>}/>
         <Route path="/linked-list" element={<LinkedListPage/>}/>
         <Route path="/hashmap" element={<HashMapPage/>}/>
         <Route path="/bubble-sort" element={<BubbleSortPage/>}/>
@@ -34,6 +42,8 @@ function App() {
         <Route path="/merge-sort" element={<MergeSortPage/>}/>
         <Route path="/binary-search" element={<BinarySearchPage/>}/>
         <Route path="/tower-of-hanoi" element={<TowerOfHanoiPage/>}/>
+        <Route path="/prims-algo" element={<PrimVisualizerPage/>}/>
+        <Route path="/kruskals-sort" element={<KruskalVisualizerPage/>}/>
         <Route path="/n-queens" element={<NQueensPage/>}/>
       </Routes>
       <Footer/>
