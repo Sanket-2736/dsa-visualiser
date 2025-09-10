@@ -40,39 +40,7 @@ This project helps students and developers understand how various **data structu
 * **Routing:** React Router DOM
 * **State Management:** React Context API
 
----
-
-## 📂 Project Structure
-
-src/
-│
-├── components/ # Navbar, Footer, reusable components
-├── context/ # App-wide state (AppContext)
-├── pages/ # Each algorithm / data structure visualizer
-│ ├── Home.jsx
-│ ├── About.jsx
-│ ├── DataStuctDesc.jsx
-│ ├── QueuePage.jsx
-│ ├── StackPage.jsx
-│ ├── LinkedListPage.jsx
-│ ├── HashMapPage.jsx
-│ ├── BinaryTreePage.jsx
-│ ├── AVLTreePage.jsx
-│ ├── GraphPage.jsx
-│ ├── BubbleSortPage.jsx
-│ ├── InsertionSortPage.jsx
-│ ├── MergeSortPage.jsx\n
-│ ├── BinarySearchPage.jsx\n
-│ ├── TowerOfHanoiPage.jsx\n
-│ ├── NQueensPage.jsx
-│ ├── PrimVisualizerPage.jsx
-│ └── KruskalVisualizerPage.jsx
-│
-├── App.jsx # Main app with routing
-└── index.js # React entry point
-
-
-
+----
 ---
 
 ## ⚡ Getting Started
